@@ -1,0 +1,87 @@
+
+.header-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.header-home h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+    color:#fff;
+}
+
+.header-home span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    color:#fff;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 6vw;
+}
+
+.imgPerfil{
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+}
+
+.icons{
+    height: 2.5vw;
+    width: 2.5vw;
+}
+
+.icons:hover{
+    cursor: pointer;
+    opacity:70%;
+}
+
+.main-home{
+    justify-content: right !important;
+}
+
+.alinhar{
+    top: 53% !important; 
+    left: 20% !important;
+}
+
+.form-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 10vw;
+}
+
+table { 
+	width: 65%; 
+	border-collapse: collapse; 
+	}
+
+.titulo th{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+    color: #fff;
+}
+
+.linha th {  
+	font-weight: bold; 	
+	padding: 10px 0px; 
+	border: 0.5px solid #ccc; 
+	font-size: 1vw;
+    width: auto;
+    color: #fff;
+}

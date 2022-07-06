@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogPeople</name>
+    </assembly>
+    <members>
+        <member name="M:LogPeople.Controllers.LoginController.Login(LogPeople.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="login">Objeto login que contém o e-mail e a senha do usuário</param>
+            <returns>Retorna um token com as informações do usuário</returns>
+            dominio/api/Login
+        </member>
+        <member name="M:LogPeople.Controllers.UsuariosController.GetUsuarios">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns>Uma lista de usuários</returns>
+        </member>
+        <member name="M:LogPeople.Controllers.UsuariosController.GetUsuario(System.Int32)">
+            <summary>
+            Lista um usuário específico
+            </summary>
+            <param name="id">id do usuário</param>
+            <returns>um único usuário</returns>
+        </member>
+        <member name="M:LogPeople.Controllers.UsuariosController.PutUsuario(LogPeople.Domains.Usuario,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Atualiza um usuário
+            </summary>
+            <param name="usuario">objeto que recebe os dados atualizados</param>
+            <param name="arquivo">foto de perfil</param>
+            <returns>retorna o status No content</returns>
+        </member>
+        <member name="M:LogPeople.Controllers.UsuariosController.PostUsuario(LogPeople.Domains.Usuario,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Cadastra um novo usuário
+            </summary>
+            <param name="usuario">objeto que leva os dados do usuário a ser cadastrado</param>
+            <param name="arquivo">foto do usuario</param>
+            <returns>retorna o status Ok</returns>
+        </member>
+        <member name="M:LogPeople.Controllers.UsuariosController.DeleteUsuario(System.Int32)">
+            <summary>
+            Deleta um usuário
+            </summary>
+            <param name="id">id do usuário a ser deletado</param>
+            <returns>retorna o status no content</returns>
+        </member>
+        <member name="M:LogPeople.Utils.Upload.UploadFile(Microsoft.AspNetCore.Http.IFormFile,System.String[])">
+            <summary>
+            Faz o upload do arquivo para o servidor
+            </summary>
+            <param name="arquivo">Arquivo vindo de um formulário</param>
+            <param name="extensoesPermitidas">Array com extensões permitidas apenas</param>
+            <returns>Nome do arquivo salvo</returns>
+        </member>
+        <member name="M:LogPeople.Utils.Upload.ValidarExtensao(System.String[],System.String)">
+            <summary>
+            Valida o uso de enxtensões permitidas apenas
+            </summary>
+            <param name="extensoes">Array de extensões permitidas</param>
+            <param name="nomeDoArquivo">Nome do arquivo</param>
+            <returns>Verdadeiro/Falso</returns>
+        </member>
+        <member name="M:LogPeople.Utils.Upload.RemoverArquivo(System.String)">
+            <summary>
+            Remove um arquivo do servidor
+            </summary>
+            <param name="nomeDoArquivo">Nome do Arquivo</param>
+        </member>
+        <member name="M:LogPeople.Utils.Upload.RetornarExtensao(System.String)">
+            <summary>
+            Retorna a extensão de um arquivo
+            </summary>
+            <param name="nomeDoArquivo">Nome do Arquivo</param>
+            <returns>Retorna a extensão de um arquivo</returns>
+        </member>
+    </members>
+</doc>

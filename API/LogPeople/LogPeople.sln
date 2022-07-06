@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogPeople", "LogPeople.csproj", "{62E42116-DE53-4D0F-8B1F-113AD8EC956D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62E42116-DE53-4D0F-8B1F-113AD8EC956D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E42116-DE53-4D0F-8B1F-113AD8EC956D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E42116-DE53-4D0F-8B1F-113AD8EC956D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E42116-DE53-4D0F-8B1F-113AD8EC956D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7176A55-1E00-451B-B5E4-33A960892FC4}
+	EndGlobalSection
+EndGlobal
